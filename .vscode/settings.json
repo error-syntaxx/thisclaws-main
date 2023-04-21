@@ -1,0 +1,11 @@
+{
+    "livePreview.defaultPreviewPath": "/index.html",
+    "spotify.showPlayButton": true,
+    "spotify.showPauseButton": true,
+    "spotify.showMuteVolumeButton": true,
+    "spotify.showToggleRepeatingButton": true,
+    "spotify.showToggleShufflingButton": true,
+    "spotify.showVolumeDownButton": true,
+    "spotify.showUnmuteVolumeButton": true,
+    "spotify.showVolumeUpButton": true
+}

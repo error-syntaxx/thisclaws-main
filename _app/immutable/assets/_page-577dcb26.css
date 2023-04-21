@@ -1,0 +1,592 @@
+.section-title.svelte-l5wwlp.svelte-l5wwlp {
+    font-family: Poppins, sans-serif
+}
+
+.color-discord.svelte-l5wwlp.svelte-l5wwlp {
+    background-color: #36393f
+}
+
+.avatar.svelte-l5wwlp img.svelte-l5wwlp {
+    position: absolute;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px
+}
+
+.header.svelte-l5wwlp.svelte-l5wwlp {
+    margin-left: 60px;
+    padding-top: 3px;
+    color: #fff;
+    height: 1.3em
+}
+
+.timestamp.svelte-l5wwlp.svelte-l5wwlp {
+    color: #fff3;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-left: .3rem
+}
+
+.message.svelte-l5wwlp.svelte-l5wwlp {
+    color: #dcddde;
+    margin-left: 60px;
+    padding-right: 10px
+}
+
+.content.svelte-l5wwlp.svelte-l5wwlp {
+    margin-top: 4px;
+    font-size: .9375rem;
+    color: #dcddde
+}
+
+.message-group.svelte-l5wwlp.svelte-l5wwlp {
+    margin: 10px 20px;
+    padding: 10px 1px
+}
+
+.divider.svelte-l5wwlp.svelte-l5wwlp {
+    border: none;
+    border-bottom: 1px solid transparent;
+    margin: 20px 0 -20px;
+    border-bottom-color: #ffffff0a
+}
+
+.main-timeline.svelte-l5wwlp.svelte-l5wwlp {
+    position: relative
+}
+
+.main-timeline.svelte-l5wwlp.svelte-l5wwlp:after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: #0f0f0f;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px
+}
+
+.timeline.svelte-l5wwlp.svelte-l5wwlp {
+    position: relative;
+    background-color: inherit;
+    width: 50%
+}
+
+.timeline.svelte-l5wwlp.svelte-l5wwlp:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: #0f0f0f;
+    border: 2px solid #5865f2;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1
+}
+
+.left.svelte-l5wwlp.svelte-l5wwlp {
+    padding: 0 40px 20px 0;
+    left: 0
+}
+
+.right.svelte-l5wwlp.svelte-l5wwlp {
+    padding: 0 0 20px 40px;
+    left: 50%
+}
+
+.left.svelte-l5wwlp.svelte-l5wwlp:before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #fff;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #fff
+}
+
+.right.svelte-l5wwlp.svelte-l5wwlp:before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #fff;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #fff transparent transparent
+}
+
+.right.svelte-l5wwlp.svelte-l5wwlp:after {
+    left: -12px
+}
+
+@media screen and (max-width:600px) {
+    .main-timeline.svelte-l5wwlp.svelte-l5wwlp:after {
+        left: 31px
+    }
+
+    .timeline.svelte-l5wwlp.svelte-l5wwlp {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px
+    }
+
+    .timeline.svelte-l5wwlp.svelte-l5wwlp:before {
+        left: 60px;
+        border: medium solid #fff;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #fff transparent transparent
+    }
+
+    .left.svelte-l5wwlp.svelte-l5wwlp:after,
+    .right.svelte-l5wwlp.svelte-l5wwlp:after {
+        left: 18px
+    }
+
+    .left.svelte-l5wwlp.svelte-l5wwlp:before {
+        right: auto
+    }
+
+    .right.svelte-l5wwlp.svelte-l5wwlp {
+        left: 0%
+    }
+}
+
+.content.svelte-l5wwlp.svelte-l5wwlp {
+    position: auto
+}
+
+.container.svelte-l5wwlp.svelte-l5wwlp {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+#bongo-cat.svelte-l5wwlp.svelte-l5wwlp {
+    position: auto;
+    height: 40vh;
+    width: 30vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.typing-animation.svelte-l5wwlp.svelte-l5wwlp {
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s
+}
+
+path#f1-l1.svelte-l5wwlp.svelte-l5wwlp {
+    -webkit-animation-name: svelte-l5wwlp-typing-f1-l1;
+    animation-name: svelte-l5wwlp-typing-f1-l1
+}
+
+path#f1-l2.svelte-l5wwlp.svelte-l5wwlp {
+    -webkit-animation-name: svelte-l5wwlp-typing-f1-l2;
+    animation-name: svelte-l5wwlp-typing-f1-l2
+}
+
+path#f1-l3.svelte-l5wwlp.svelte-l5wwlp {
+    -webkit-animation-name: svelte-l5wwlp-typing-f1-l3;
+    animation-name: svelte-l5wwlp-typing-f1-l3
+}
+
+path#f2-l4.svelte-l5wwlp.svelte-l5wwlp {
+    -webkit-animation-name: svelte-l5wwlp-typing-f2-l4;
+    animation-name: svelte-l5wwlp-typing-f2-l4
+}
+
+path#f2-l5.svelte-l5wwlp.svelte-l5wwlp {
+    -webkit-animation-name: svelte-l5wwlp-typing-f2-l5;
+    animation-name: svelte-l5wwlp-typing-f2-l5
+}
+
+path#f2-l6.svelte-l5wwlp.svelte-l5wwlp {
+    -webkit-animation-name: svelte-l5wwlp-typing-f2-l6;
+    animation-name: svelte-l5wwlp-typing-f2-l6
+}
+
+path#f3-l7.svelte-l5wwlp.svelte-l5wwlp {
+    -webkit-animation-name: svelte-l5wwlp-typing-f3-l7;
+    animation-name: svelte-l5wwlp-typing-f3-l7
+}
+
+path#f3-l8.svelte-l5wwlp.svelte-l5wwlp {
+    -webkit-animation-name: svelte-l5wwlp-typing-f3-l8;
+    animation-name: svelte-l5wwlp-typing-f3-l8
+}
+
+path#f3-l9.svelte-l5wwlp.svelte-l5wwlp {
+    -webkit-animation-name: svelte-l5wwlp-typing-f3-l9;
+    animation-name: svelte-l5wwlp-typing-f3-l9
+}
+
+@-webkit-keyframes svelte-l5wwlp-typing-f3-l9 {
+    0% {
+        d: path("M8,25L8,25")
+    }
+
+    82% {
+        d: path("M8,25L8,25")
+    }
+
+    92% {
+        d: path("M8,25L96,25")
+    }
+
+    to {
+        d: path("M8,25L96,25")
+    }
+}
+
+@keyframes svelte-l5wwlp-typing-f3-l9 {
+    0% {
+        d: path("M8,25L8,25")
+    }
+
+    82% {
+        d: path("M8,25L8,25")
+    }
+
+    92% {
+        d: path("M8,25L96,25")
+    }
+
+    to {
+        d: path("M8,25L96,25")
+    }
+}
+
+@-webkit-keyframes svelte-l5wwlp-typing-f3-l8 {
+    0% {
+        d: path("M8,13L8,13")
+    }
+
+    68% {
+        d: path("M8,13L8,13")
+    }
+
+    82% {
+        d: path("M8,13L146,13")
+    }
+
+    to {
+        d: path("M8,13L146,13")
+    }
+}
+
+@keyframes svelte-l5wwlp-typing-f3-l8 {
+    0% {
+        d: path("M8,13L8,13")
+    }
+
+    68% {
+        d: path("M8,13L8,13")
+    }
+
+    82% {
+        d: path("M8,13L146,13")
+    }
+
+    to {
+        d: path("M8,13L146,13")
+    }
+}
+
+@-webkit-keyframes svelte-l5wwlp-typing-f3-l7 {
+    0% {
+        d: path("M0,1L0,1")
+    }
+
+    60% {
+        d: path("M0,1L0,1")
+    }
+
+    68% {
+        d: path("M0,1L96,1")
+    }
+
+    to {
+        d: path("M0,1L96,1")
+    }
+}
+
+@keyframes svelte-l5wwlp-typing-f3-l7 {
+    0% {
+        d: path("M0,1L0,1")
+    }
+
+    60% {
+        d: path("M0,1L0,1")
+    }
+
+    68% {
+        d: path("M0,1L96,1")
+    }
+
+    to {
+        d: path("M0,1L96,1")
+    }
+}
+
+@-webkit-keyframes svelte-l5wwlp-typing-f2-l6 {
+    0% {
+        d: path("M8,25L8,25")
+    }
+
+    54% {
+        d: path("M8,25L8,25")
+    }
+
+    60% {
+        d: path("M8,25L69,25")
+    }
+
+    to {
+        d: path("M8,25L69,25")
+    }
+}
+
+@keyframes svelte-l5wwlp-typing-f2-l6 {
+    0% {
+        d: path("M8,25L8,25")
+    }
+
+    54% {
+        d: path("M8,25L8,25")
+    }
+
+    60% {
+        d: path("M8,25L69,25")
+    }
+
+    to {
+        d: path("M8,25L69,25")
+    }
+}
+
+@-webkit-keyframes svelte-l5wwlp-typing-f2-l5 {
+    0% {
+        d: path("M8,13L8,13")
+    }
+
+    44% {
+        d: path("M8,13L8,13")
+    }
+
+    54% {
+        d: path("M8,13L114,13")
+    }
+
+    to {
+        d: path("M8,13L114,13")
+    }
+}
+
+@keyframes svelte-l5wwlp-typing-f2-l5 {
+    0% {
+        d: path("M8,13L8,13")
+    }
+
+    44% {
+        d: path("M8,13L8,13")
+    }
+
+    54% {
+        d: path("M8,13L114,13")
+    }
+
+    to {
+        d: path("M8,13L114,13")
+    }
+}
+
+@-webkit-keyframes svelte-l5wwlp-typing-f2-l4 {
+    0% {
+        d: path("M0,1L0,1")
+    }
+
+    30% {
+        d: path("M0,1L0,1")
+    }
+
+    44% {
+        d: path("M0,1L136,1")
+    }
+
+    to {
+        d: path("M0,1L136,1")
+    }
+}
+
+@keyframes svelte-l5wwlp-typing-f2-l4 {
+    0% {
+        d: path("M0,1L0,1")
+    }
+
+    30% {
+        d: path("M0,1L0,1")
+    }
+
+    44% {
+        d: path("M0,1L136,1")
+    }
+
+    to {
+        d: path("M0,1L136,1")
+    }
+}
+
+@-webkit-keyframes svelte-l5wwlp-typing-f1-l3 {
+    0% {
+        d: path("M8,25L8,25")
+    }
+
+    24% {
+        d: path("M8,25L8,25")
+    }
+
+    30% {
+        d: path("M8,25L61,25")
+    }
+
+    to {
+        d: path("M8,25L61,25")
+    }
+}
+
+@keyframes svelte-l5wwlp-typing-f1-l3 {
+    0% {
+        d: path("M8,25L8,25")
+    }
+
+    24% {
+        d: path("M8,25L8,25")
+    }
+
+    30% {
+        d: path("M8,25L61,25")
+    }
+
+    to {
+        d: path("M8,25L61,25")
+    }
+}
+
+@-webkit-keyframes svelte-l5wwlp-typing-f1-l2 {
+    0% {
+        d: path("M8,13L8,13")
+    }
+
+    14% {
+        d: path("M8,13L8,13")
+    }
+
+    24% {
+        d: path("M8,13L124,13")
+    }
+
+    to {
+        d: path("M8,13L124,13")
+    }
+}
+
+@keyframes svelte-l5wwlp-typing-f1-l2 {
+    0% {
+        d: path("M8,13L8,13")
+    }
+
+    14% {
+        d: path("M8,13L8,13")
+    }
+
+    24% {
+        d: path("M8,13L124,13")
+    }
+
+    to {
+        d: path("M8,13L124,13")
+    }
+}
+
+@-webkit-keyframes svelte-l5wwlp-typing-f1-l1 {
+    0% {
+        d: path("M0,1L0,1")
+    }
+
+    14% {
+        d: path("M0,1L160,1")
+    }
+
+    to {
+        d: path("M0,1L160,1")
+    }
+}
+
+@keyframes svelte-l5wwlp-typing-f1-l1 {
+    0% {
+        d: path("M0,1L0,1")
+    }
+
+    14% {
+        d: path("M0,1L160,1")
+    }
+
+    to {
+        d: path("M0,1L160,1")
+    }
+}
+
+#paw-right--up.svelte-l5wwlp.svelte-l5wwlp,
+#paw-right--down.svelte-l5wwlp.svelte-l5wwlp,
+#paw-left--up.svelte-l5wwlp.svelte-l5wwlp,
+#paw-left--down.svelte-l5wwlp.svelte-l5wwlp {
+    -webkit-animation: svelte-l5wwlp-blink .3s infinite;
+    animation: svelte-l5wwlp-blink .3s infinite
+}
+
+#paw-right--up.svelte-l5wwlp.svelte-l5wwlp,
+#paw-left--down.svelte-l5wwlp.svelte-l5wwlp {
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s
+}
+
+@-webkit-keyframes svelte-l5wwlp-blink {
+    0% {
+        opacity: 0
+    }
+
+    49% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+@keyframes svelte-l5wwlp-blink {
+    0% {
+        opacity: 0
+    }
+
+    49% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+#laptop__code.svelte-l5wwlp.svelte-l5wwlp {
+    transform: rotateX(-37deg) rotateY(-46deg) rotate(-23deg) translate(8px) translateY(20px) translateZ(-50px)
+}

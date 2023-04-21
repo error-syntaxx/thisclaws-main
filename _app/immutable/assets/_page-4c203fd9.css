@@ -1,0 +1,16 @@
+.bg.svelte-zu9okv {
+    padding: 0 0 80px;
+    background-image: url(cloud-blur-e5021552.svg);
+    background-position: 50%, 50%;
+    background-size: cover;
+    align-items: center
+}
+
+h1.svelte-zu9okv {
+    font-size: 36px;
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px
+}
